@@ -8,6 +8,9 @@ python:
 # Faz a instalação com Sudo, para ter privilégio de Super Usuário.
 sudo: required
 
+services:
+  - docker
+
 # Instalação de Módulos que são necessários para a Aplicação.
 install:
   - pip install flask
